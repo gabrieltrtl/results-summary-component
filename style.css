@@ -103,7 +103,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.0625rem 1rem 1.125rem 1rem;
+  padding: 17px 16px 18px 16px;
   border-radius: 0.75rem;
 }
 
@@ -181,6 +181,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #ECF2FF;
+  
   }
 
   .container {
@@ -226,6 +227,10 @@ body {
   .container__summary-wrapper {
     padding: 2.375rem 2.5rem 2.875rem 2.5rem;
   }
+
+  .label {
+    font-size: 18px;
+  }
   
   .container__summary-wrapper h2 {
     font-size: 24px;
@@ -233,6 +238,10 @@ body {
 
   .container__visual {
     margin-bottom: 2.5625rem;
+  }
+
+  .container__summary-wrapper a {
+    padding: 1.0625rem 6.6875rem 1rem 6.625rem;
   }
 
   .container__summary-wrapper a:hover {
