@@ -188,6 +188,7 @@ body {
     display: flex;
     background: #FFF;
     border-radius: 32px;
+    box-shadow: 0 30px 60px 0 rgba(61, 108, 236, .2);
   }
 
   .container__result {
@@ -215,6 +216,7 @@ body {
 
   .container__result h2 {
     margin-bottom: 14px;
+    font-size: 2rem;
   }
 
   .container__result .paragraph {
